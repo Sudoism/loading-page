@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero.text {
+
+}
