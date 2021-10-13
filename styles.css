@@ -19,12 +19,15 @@ body {
 
 .header .logo{
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
 .header .links{
     font-size: 18px;
     color: #E5E7EB;
+    display:flex;
+    gap:20px;
 }
 
 .hero {
@@ -32,7 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: #1F2937;
-    padding: 50px;
+    padding: 100px;
     color: #F9FAF8;
     gap:50px;
 }
@@ -43,28 +46,42 @@ body {
 }
 
 .hero .flower {
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 600px;
+    max-height: 250px;
 }
 
-.hero button {
+.hero button, .action button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    border-style: none;
+    box-sizing: border-box;
 }
 
 .info {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.info .title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
 }
 
 .cards {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     padding-left: 200px;
     padding-right: 200px;
     justify-content: center;
@@ -74,15 +91,75 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .media .content {
-    flex: 1;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #7b7c7edc;
 }
 
 .media .mountain {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:100px;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    color: #3f4041;
+
+}
+
+.quote .author {
+    font-weight: bold;
+    color: black;
+    align-self: flex-end;
+}
+
+.action {
+    background-color:#3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+
+.action .text {
+    text-align: left;
+    color: #E5E7EB;
+}
+
+.action .text .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #E5E7EB;
+}
+
+.action button {
+    border-width: 2px;
+    border-style:solid;
+    border-color: #F9FAF8;
+    height: 30px; 
 }
