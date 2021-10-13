@@ -132,9 +132,11 @@ body {
     background-color:#3882F6;
     color: #f9faf8;
     display: flex;
-    justify-content: space-evenly;
-    margin: 70px;
+    justify-content: space-between;
+    margin: 60px;
     padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
     border-radius: 8px;
 }
 
